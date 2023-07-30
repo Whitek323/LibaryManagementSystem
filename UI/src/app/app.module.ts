@@ -6,12 +6,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { PageFooterComponent } from './page-footer/page-footer.component';
 import { MaterialModule } from './material/material.module';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { LibaryComponent } from './libary/libary.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageHeaderComponent,
-    PageFooterComponent
+    PageFooterComponent,
+    SideNavComponent,
+    LibaryComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

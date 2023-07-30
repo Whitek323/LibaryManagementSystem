@@ -1,0 +1,16 @@
+@color: #FFF; // Define the color variable
+@alpha: 0.1;  // Define the alpha variable
+
+:host {
+    display: block;
+
+}
+mat-list-item {
+    &:hover {
+        background-color: rgba(@color, @alpha);
+        cursor: pointer;
+    }
+    .active{
+        background-color: rgba(@color, @alpha);
+    }
+}
